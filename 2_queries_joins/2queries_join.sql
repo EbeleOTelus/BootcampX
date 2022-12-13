@@ -1,5 +1,5 @@
-SELECT COUNT(*) FROM assignments JOIN assignment_submissions
-ON assignments.duration = assignment_submissions.duration GROUP BY assignments.name = 'Ibrahim Schimmel';
+-- SELECT COUNT(*) FROM assignments JOIN assignment_submissions
+-- ON assignments.duration = assignment_submissions.duration GROUP BY assignments.name = 'Ibrahim Schimmel';
 
 SELECT sum(assignment_submissions.duration) as total_duration
 FROM assignment_submissions
